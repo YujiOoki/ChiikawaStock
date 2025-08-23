@@ -1,0 +1,38 @@
+# ログファイル
+*.log
+scraping_*.log
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# 出力ファイル
+*.csv
+*.xlsx
+chiikawa_products*
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 仮想環境
+venv/
+env/
+ENV/
+
+# IDE設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# デバッグファイル
+debug_scraper.py
+simple_scraper.py
+working_scraper.py
+
+# システムファイル
+.DS_Store
+Thumbs.db
